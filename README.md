@@ -1,1 +1,1 @@
-https://github.com/xslicerr/ono-tebe-nado-fd
+https://github.com/xslicerr/posmotri-v-okno-fd.git
