@@ -5,12 +5,13 @@
 }
 
 html {
-  block-size: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .page {
   inline-size: 1200px;
-  block-size: 100%;
+  height: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -298,6 +299,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .search-form__submit-button {
