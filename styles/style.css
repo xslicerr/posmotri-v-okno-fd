@@ -81,7 +81,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-self: flex-start;
-  height: 54px;
+  min-height: 54px;
 }
 
 .content__list-container {
@@ -216,8 +216,8 @@ ol {
 }
 
 .search-form__textfield {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   border-left: none;
   border-right: none;
   background-color: transparent;
@@ -278,12 +278,12 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list:hover {
+.search-form__label:hover .search-form__label-text { 
   text-decoration: underline;
-  text-underline-offset: 1px;
+  text-underline-offset: 1px; 
   text-decoration-thickness: 1px;
 }
-
+  
 .search-form__checkbox-list:focus {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -293,7 +293,7 @@ ol {
   width: 194px;
   min-height: 34px;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-weight: 700;
   font-size: 18px;
